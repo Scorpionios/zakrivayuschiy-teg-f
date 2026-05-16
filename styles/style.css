@@ -24,7 +24,7 @@
   background-position: center;
   background-attachment: fixed;
   font-family: var(--Inter), sans-serif;
-  font-weight: var(--weight-Inter);
+  font-variation-settings: 'wght' var(--weight-Inter);
 }
 
 .header {
@@ -72,7 +72,7 @@ main {
 
 .post h2 {
   --weight-Inter: 715;
-  font-weight: var(--weight-Inter);
+  font-variation-settings: 'wght' var(--weight-Inter);
   margin: 5px 10px 0px;
 }
 
@@ -174,12 +174,12 @@ main {
   --color-contour-heart: #FF0000;
 }
 
-.like-icon.is-liked .core_heart{
+.like-icon.is-liked .core_heart {
   transition: fill 0.3s linear;
   --fill-color: #FF0000;
 }
 
-.like-icon.is-liked .main_body_heart{
+.like-icon.is-liked .main_body_heart {
   transition: fill 0.3s 0.05s linear;
   --fill-color: #FF0000;
 }
@@ -189,7 +189,7 @@ main {
   transform-origin: center;
 }
 
-.like-icon.is-liked .sparks_heart{
+.like-icon.is-liked .sparks_heart {
   animation: sparks 0.3s 0.3s ease-in;
 }
 
