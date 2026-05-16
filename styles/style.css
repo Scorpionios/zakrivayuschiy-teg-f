@@ -33,7 +33,7 @@
   display: grid;
   background-color: #fff;
   margin: 100px auto clamp(96px, 101.41px + -0.38vw, 100px);
-  font-family: var(--PressStart2P);
+  font-family: var(--PressStart2P), monospace;
   justify-content: center;
   gap: 18px;
   border: #000 solid 2px;
@@ -89,7 +89,7 @@ main {
   position: absolute;
   top: 27px;
   right: 25px;
-  font-family: var(--PressStart2P), sans-serif;
+  font-family: var(--PressStart2P), monospace;
   -webkit-text-stroke: 0.5px #fff;
   font-size: 14px;
   text-transform: uppercase;
@@ -99,6 +99,8 @@ main {
   margin: 16px 25px 0px;
   display: grid;
   gap: 25px;
+  font-size: 18px;
+  line-height: 21px;
 }
 
 .case_like {
@@ -199,7 +201,7 @@ main {
   position: relative;
   overflow: hidden;
   border: #000 solid 2px;
-  font-family: var(--PressStart2P), sans-serif;
+  font-family: var(--PressStart2P), monospace;
   background-color: #fff;
   font-size: 14px;
   line-height: 90%;
@@ -319,7 +321,7 @@ dialog form {
 }
 
 dialog p {
-  font-family: var(--PressStart2P), sans-serif;
+  font-family: var(--PressStart2P), monospace;
   font-size: 14px;
   line-height: 150%;
 }
