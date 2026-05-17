@@ -103,6 +103,13 @@ main {
   line-height: 21px;
 }
 
+.text_post img {
+  object-fit: cover;
+  width: 50%;
+  justify-self: center;
+  border: #000 solid;
+}
+
 .case_like {
   display: flex;
   gap: 7px;
@@ -123,7 +130,7 @@ main {
   transition: border 0.3s ease;
 }
 
-.card__icon_button:focus-visible {
+.card__icon-button:focus-visible {
   border: #000 solid 2px;
 }
 
@@ -284,6 +291,15 @@ main {
 
 .post:nth-child(8) img {
   filter: invert(0.7) saturate(3.5) grayscale(0.4) hue-rotate(280deg);
+}
+
+.post:nth-child(7) .text_post img {
+  width: 100%;
+  filter: saturate(5);
+}
+
+.post:nth-child(8) .text_post img {
+  width: 100%;
 }
 
 dialog {
