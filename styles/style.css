@@ -294,12 +294,7 @@ main {
 }
 
 .post:nth-child(7) .text_post img {
-  width: 100%;
   filter: saturate(5);
-}
-
-.post:nth-child(8) .text_post img {
-  width: 100%;
 }
 
 dialog {
